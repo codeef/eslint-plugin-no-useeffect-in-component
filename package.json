@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-useeffect-in-component",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "author": "codeef",
   "description": "Eslint plugin written in TypeScript that prevents useEffect call inside React component",
   "main": "lib/index.js",
@@ -26,12 +26,7 @@
     "url": "https://github.com/codeef/eslint-plugin-no-useeffect-in-component"
   },
   "scripts": {
-    "build": "tsc -b tsconfig.json",
-    "tsup": "tsup ./lib/index.ts",
-    "docs:init": "eslint-doc-generator --init-rule-docs",
-    "docs:update": "eslint-doc-generator",
-    "test:jest": "jest",
-    "test": "vitest"
+    "build": "tsc -b tsconfig.json"
   },
   "license": "ISC",
   "dependencies": {
@@ -41,15 +36,8 @@
   },
   "devDependencies": {
     "@types/eslint": "^8.56.10",
-    "@types/jest": "^29.5.12",
     "@types/node": "^20.14.11",
     "@typescript-eslint/parser": "^7.13.0",
-    "@typescript-eslint/rule-tester": "^7.13.0",
-    "eslint-doc-generator": "^1.7.1",
-    "jest": "^29.7.0",
-    "ts-jest": "^29.1.4",
-    "tsup": "^8.1.0",
-    "typescript": "^5.4.5",
-    "vitest": "^1.6.0"
+    "typescript": "^5.4.5"
   }
 }
