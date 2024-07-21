@@ -1,0 +1,56 @@
+{
+  "name": "eslint-plugin-no-useeffect-in-component",
+  "version": "0.0.1",
+  "description": "Demonstrating an eslint plugin written in TypeScript",
+  "main": "lib/index.js",
+  "files": [
+    "docs/",
+    "lib/"
+  ],
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "typescript"
+  ],
+  "homepage": "https://www.npmjs.com/package/eslint-plugin-demo-typescript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/francoismassart/eslint-plugin-demo-typescript"
+  },
+  "bugs": "https://github.com/francoismassart/eslint-plugin-demo-typescript/issues",
+  "scripts": {
+    "build": "tsc -b tsconfig.json",
+    "tsup": "tsup ./lib/index.ts",
+    "docs:init": "eslint-doc-generator --init-rule-docs",
+    "docs:update": "eslint-doc-generator",
+    "test:jest": "jest",
+    "test": "vitest"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/types": "^7.13.0",
+    "@typescript-eslint/utils": "^7.13.0",
+    "eslint": "^8.56.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.56.10",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.11",
+    "@typescript-eslint/parser": "^7.13.0",
+    "@typescript-eslint/rule-tester": "^7.13.0",
+    "eslint-doc-generator": "^1.7.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.4",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}
