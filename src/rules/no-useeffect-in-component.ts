@@ -5,7 +5,7 @@ import { TSESTree } from "@typescript-eslint/types";
 const createRule = RuleCreator((name) => `https://example.com/rule/${name}`);
 
 export const noUseEffectInComponent = createRule({
-  name: "no-useeffect-in-component",
+  name: "useeffect-rule",
   meta: {
     type: "suggestion",
     docs: {
