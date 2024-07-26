@@ -32,10 +32,10 @@
   "dependencies": {
     "@typescript-eslint/types": "^5.62.0",
     "@typescript-eslint/utils": "^5.62.0",
-    "eslint": "^8.56.0"
+    "eslint": "8.20.0"
   },
   "devDependencies": {
-    "@types/eslint": "^8.56.10",
+    "@types/eslint": "8.21.2",
     "@types/node": "^20.14.11",
     "@typescript-eslint/parser": "^5.62.0",
     "typescript": "^5.4.5"
