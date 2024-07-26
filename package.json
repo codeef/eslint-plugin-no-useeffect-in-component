@@ -1,6 +1,10 @@
 {
   "name": "eslint-plugin-no-useeffect-in-component",
+<<<<<<< Updated upstream
   "version": "1.0.2",
+=======
+  "version": "1.0.4",
+>>>>>>> Stashed changes
   "author": "codeef",
   "description": "Eslint plugin written in TypeScript that prevents useEffect call inside React component",
   "main": "lib/index.js",
